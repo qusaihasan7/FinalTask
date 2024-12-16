@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Sizzle & Spice.webp" alt="Restaurant Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would like to make a reservation, please reach out to us through the contact form below:</p>
+
+        <form id="contact-form">
+            <div id="qq">
+            <label>Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <br>
+            <label>Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <br>
+            <div>
+                <label>Message:</label>
+                <textarea id="message" required></textarea>
+            </div>
+            </div>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="form-status"></p>
+    </main>
+
+    <footer>
+        <p>Phone: 00962797092393 | Email: Sizzle.Spice@gmail.com </p>
+        <p>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </p>
+        <p>Location: Amman, Mecca St, Second floor in Mecca Mall</p>
+        <p>All Rights Reserved &copy; 2024 Sizzle & Spice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
